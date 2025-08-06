@@ -72,9 +72,9 @@ const Hero = () => {
       </div>
 
       {/* Paragraph with margin top */}
-      <div className="mt-6 m-2 text-slate-300">
+      <h3 className="mt-6 m-2 text-slate-300">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laudantium ratione perspiciatis quo odit vero, minus exercitationem aut possimus tenetur doloremque sint veritatis aliquid numquam nostrum, dolor magni nam omnis!
-      </div>
+      </h3>
     </div>
   );
 };
