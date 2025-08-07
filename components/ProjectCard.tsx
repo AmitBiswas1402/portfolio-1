@@ -11,7 +11,7 @@ interface ProjectCardProps {
   github: string;
 }
 
-const ProjectCard = ({ id, name, desc, website, github }: ProjectCardProps) => {
+const ProjectCard = ({ name, desc, website, github }: ProjectCardProps) => {
   return (
     <article className="bg-[#1f1f1f] border border-[#333] rounded-xl p-6 mb-6 shadow-md hover:shadow-lg transition-shadow duration-300">
       <div className="flex items-center justify-between mb-2">
