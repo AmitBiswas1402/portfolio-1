@@ -1,5 +1,6 @@
 "use client";
 
+import { projects } from "@/constants";
 import ProjectCard from "./ProjectCard";
 
 const Body = () => {
@@ -11,21 +12,16 @@ const Body = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <ProjectCard 
-          id="1"
-          name="Converso - AI LMS SaaS"
-          desc="A SaaS app of a Learning Management System with the creation of companion courses, including voice interaction."
-          website="https://ai-voice-converso.vercel.app/"
-          github="https://github.com/AmitBiswas1402/ai-voice-2"
-        />
-        <ProjectCard 
-          id="2"
-          name="Other Project"
-          desc="Some additional project to showcase. Clean UI and well organized description like in the inspiration."
-          website="https://example.com"
-          github="https://github.com/example/repo"
-        />
-        {/* Add more cards here */}
+        {projects.map((proj) => (
+          <ProjectCard
+            key={proj.id}
+            id={proj.id}
+            name={proj.name}
+            desc={proj.desc}
+            website={proj.website}
+            github={proj.github}
+          />
+        ))}
       </div>
     </div>
   );

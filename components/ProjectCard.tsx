@@ -15,7 +15,7 @@ const ProjectCard = ({ name, desc, website, github }: ProjectCardProps) => {
   return (
     <article className="bg-[#1f1f1f] border border-[#333] rounded-xl p-6 mb-6 shadow-md hover:shadow-lg transition-shadow duration-300">
       <div className="flex items-center justify-between mb-2">
-        <h3 className="text-base font-semibold text-white">{name}</h3>
+        <h3 className="text-[16px] font-semibold text-white">{name}</h3>
         <div className="flex gap-3">
           <a
             href={website}
