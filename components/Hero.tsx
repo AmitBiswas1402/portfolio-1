@@ -73,7 +73,7 @@ const Hero = () => {
 
       {/* Paragraph with margin top */}
       <h3 className="mt-6 m-2 text-slate-300">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto laudantium ratione perspiciatis quo odit vero, minus exercitationem aut possimus tenetur doloremque sint veritatis aliquid numquam nostrum, dolor magni nam omnis!
+        Final-year B.Tech CSE student with a strong foundation in full-stack web development, AI APIs, and SaaS architecture. Proficient in building responsive UIs, authentication systems, and scalable applications using modern tech stacks.
       </h3>
     </section>
   );
